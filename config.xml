@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="info.microzaim.online" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="ru.binarnye" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Бинарные опционы</name>
     <description>
         Как начать торговлю на бинарных опционах онлайн для новичка
     </description>
-    <author email="admin@microzaim.info" href="https://Microzaim.info">
+    <author email="admin@binarnye.ru" href="https://Binarnye.ru">
         Binarnye.ru
     </author>
     <content src="index.html" />
