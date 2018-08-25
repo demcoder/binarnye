@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="ru.binarnye" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Бинарные опционы</name>
+    <name>Бинарные опционы - Стратегии</name>
     <description>
-        Как начать торговлю на бинарных опционах онлайн для новичка на лучших брокерах
+        Изучайте лучшие стратегии для заработка на опционах
     </description>
     <author email="admin@binarnye.ru" href="https://Binarnye.ru">
         Binarnye.ru
@@ -19,12 +19,12 @@
     <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
     <platform name="android">
-        <icon density="ldpi" src="res/android/icon-36.png" />
+        <icon density="ldpi" src="res/android/icon-48.png" />
         <icon density="mdpi" src="res/android/icon-48.png" />
         <icon density="hdpi" src="res/android/icon-72.png" />
         <icon density="xhdpi" src="res/android/icon-96.png" />
-        <icon density="xxhdpi" src="res/android/icon-96.png" />
-        <icon density="xxxhdpi" src="res/android/icon-96.png" />
+        <icon density="xxhdpi" src="res/android/icon-144.png" />
+        <icon density="xxxhdpi" src="res/android/icon-192.png" />
         <splash density="land-ldpi" src="res/android/drawable-land-ldpi-320-200.jpg" />
         <splash density="land-mdpi" src="res/android/drawable-land-mdpi-480-320.jpg" />
         <splash density="land-hdpi" src="res/android/drawable-land-hdpi-800-480.jpg" />
@@ -89,11 +89,8 @@
         <splash height="1920" platform="windows" src="www/res/screen/windows/SplashScreenPhone.scale-240.png" width="1152" />
     </platform>
     <access origin="*" />
-    <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
     <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
